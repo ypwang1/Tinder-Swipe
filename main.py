@@ -33,7 +33,6 @@ base_window = handles[0]
 fb_login_window = handles[1]
 print(fb_login_window)
 driver.switch_to.window(fb_login_window)
-print(driver)
 print(driver.title)
 sleep(5)
 cookies = driver.find_element(By.XPATH, value='//*[@id="facebook"]/body/div[2]/div[2]/div/div/div/div/div[3]/div[2]/div/div[2]/div[1]')
